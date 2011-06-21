@@ -1,10 +1,8 @@
 source 'http://rubygems.org'
-gem 'delayed_job',  :git => 'git://github.com/collectiveidea/delayed_job.git'
-gem 'bson_ext'
-gem 'mongo_mapper'
-gem 'i18n'
+gemspec
 
 group :development do
+	gem 'delayed_job',  :git => 'git://github.com/collectiveidea/delayed_job.git'
   gem 'rspec'
   gem 'rake'
 end
